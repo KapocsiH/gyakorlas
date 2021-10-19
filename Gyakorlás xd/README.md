@@ -1,1 +1,1 @@
-"# gyakorlas" 
+"# gyakorlas"
