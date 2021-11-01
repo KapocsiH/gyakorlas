@@ -1,7 +1,61 @@
+body{
+    background-color: rgb(10, 10, 10)
+}
 h1{
     text-align: center;
     text-decoration: underline;
+    color: whitesmoke;
+}
+h2{
+    color: whitesmoke;
+}
+h3{
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.cím{
+    text-align: justify;
 }
 p{
     text-size-adjust: 40px;
+    color: whitesmoke;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+}
+.C13{
+    height: 500px;
+    width: 889px;
+}
+.C14{
+    height: 500px;
+    width: 889px;
+}
+C22{
+    height: 500px;
+    width: 889px;
+}
+.F108{
+    height: 500px;
+    width: 889px;
+}
+.C31{
+    height: 500px;
+    width: 889px;
+}
+.C37{
+    height: 500px;
+    width: 889px;
+}
+.div{
+    border: 5px outset red ;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Sauber{
+    height: 550px;
 }
