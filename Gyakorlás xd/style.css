@@ -1,17 +1,32 @@
 body{
-    background-color: rgb(10, 10, 10)
+    background-color: rgb(10, 10, 10);
+}
+@font-face{
+    font-family: 'Product Sans Black Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Regular'), url('ProductSans-Black.woff') format('woff');
+}
+@font-face{
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
 }
 h1{
     text-align: center;
     text-decoration: underline;
     color: whitesmoke;
+    font-family: 'Product Sans Black Regular'
 }
 h2{
     color: whitesmoke;
+    font-family: 'Product Sans Black Regular'
 }
 h3{
     color: whitesmoke;
     margin-left: 20px;
+    font-family: 'Product Sans Black Regular'
 }
 .cím{
     text-align: justify;
@@ -19,6 +34,7 @@ h3{
 p{
     text-size-adjust: 40px;
     color: whitesmoke;
+    font-family: 'Product Sans Regular';
 }
 .logo{
     height: 500px;
@@ -59,6 +75,7 @@ C22{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 .Sauber{
     height: 550px;
