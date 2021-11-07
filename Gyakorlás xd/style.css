@@ -14,69 +14,65 @@ body{
     src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
 }
 h1{
-    text-align: center;
     text-decoration: underline;
     color: whitesmoke;
     font-family: 'Product Sans Black Regular'
 }
 h2{
-    color: whitesmoke;
-    font-family: 'Product Sans Black Regular'
+    font-family: 'Product Sans Black Regular';
+    text-align: center;
 }
 h3{
     color: whitesmoke;
     margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Product Sans Black Regular'
-}
-.cím{
-    text-align: justify;
 }
 p{
     text-size-adjust: 40px;
-    color: whitesmoke;
     font-family: 'Product Sans Regular';
+    text-align: center;
 }
 .logo{
-    height: 500px;
-    width: 500px;
-    margin-left: 20px;
+    height: 15%;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
 }
-.C9{
-    height: 500px;
-    width: 889px;
+.container{
+    display: flex;
 }
-.C13{
-    height: 500px;
-    width: 889px;
+.card{
+    background: white;
+    width: 240px;
+    height: 320px;
+    margin-right: 10px;
+    border-radius: 15px;
 }
-.C14{
-    height: 500px;
-    width: 889px;
+.card-image{
+    background-color: rgb(222, 50, 39);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
 }
-C22{
-    height: 500px;
-    width: 889px;
+.sauber-logo{
+    background-image: url('képek/Sauber\ logó.png');
 }
-.F108{
-    height: 500px;
-    width: 889px;
+.Peter-Sauber{
+    background-image: url('képek/Peter\ Sauber.jpg');
 }
-.C31{
-    height: 500px;
-    width: 889px;
+.cars{
+    background-image: url('képek/Sauber\ C9.jpg');
 }
-.C37{
-    height: 500px;
-    width: 889px;
-}
-.div{
-    border: 5px outset red ;
+
+.card a{
+    background-color: rgb(222, 50, 39);
+    color: white;
+    padding: 10px;
+    display: block;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.Sauber{
-    height: 550px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Product Sans Black Regular'
 }
