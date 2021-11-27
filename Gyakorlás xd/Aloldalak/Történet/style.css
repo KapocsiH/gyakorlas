@@ -10,3 +10,11 @@
     font-weight: normal;
     src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
 }
+body{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-family: 'Product Sans Regular';
+}
+.paragraph{
+    border-top: rgb(222, 50, 39) 3px solid;
+}
