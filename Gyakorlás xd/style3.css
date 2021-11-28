@@ -10,3 +10,37 @@
     font-weight: normal;
     src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
 }
+body{
+    font-family: 'Product Sans Black Regular';
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.images{
+    width: 960px;
+    height: 540px;
+    display: block;
+}
+.C9{
+    width: 960px;
+    height: 575px;
+}
+.div{
+    background-color: white;
+    height: 25px;
+    width: 960px;
+    color: black;
+}
+.div h3{
+    text-align: center;
+    margin-top: 0px;
+}
+.center{
+    max-width: 1000px;
+    margin: auto;
+}
+section{
+    height: 99%;
+}
